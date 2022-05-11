@@ -903,6 +903,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 /* Le parent de la boite__modale est la balise «body»  */
 .boite__modale, .boite__carrousel {
   position: fixed;
+  color: white;
   border: 5px solid #797979;
   background-color: black;
   transform: scale(0);

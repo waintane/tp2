@@ -2,7 +2,7 @@
 /* Le parent de la boite__modale est la balise «body»  */
 .boite__modale, .boite__carrousel {
     position : fixed;
-
+    color: white;
     border: 5px solid rgb(121, 121, 121);
     background-color: rgb(0, 0, 0);
     transform : scale(0);
