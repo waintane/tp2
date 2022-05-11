@@ -1,0 +1,32 @@
+.recherche {
+    display : flex;
+    border : 1px solid #aaa;
+    height : 30px;
+    &__text {
+        border : none;
+        outline: none;
+        background-color: rgba(#fff, .1);
+        transition : background-color .5s;
+        width : 100%;
+        &:focus {
+            background-color: rgba(#fff, .3);
+        }
+        @media screen and (min-width: 700px)
+        {
+            width : 300px;
+        }
+    }
+
+    &__submit {
+        display : flex;
+        align-items : center;
+        justify-content: center;
+        border : none;
+        outline: none;
+        svg{
+            color : #000;
+
+        }
+
+    }
+}

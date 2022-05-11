@@ -1,0 +1,8 @@
+.galerie{
+    width : 100%;
+    @media screen  and (min-width : $largeur__media--mobil) {
+         width : 75%  
+    }
+
+ 
+}

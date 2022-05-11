@@ -1,0 +1,91 @@
+.site__footer{
+  font-family: $font__titre;
+  background-color: $color__background-footer;
+  color : $color__font-footer;
+  padding: 15px;
+  &__colonne{ // .site__footer__colonne
+    display: flex;
+    justify-content: space-between;
+    section{ // .site__footer__colonne section
+      display: flex;
+      flex-direction: column;
+      border : 1px solid #aaa;
+      flex : 0 0 30%;
+    }
+    .footer__adresse{ // .site__footer__colonne  .footer__adresse
+
+    }
+    .footer__article{}
+    .footer__lien{}
+  }
+  &__ligne{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    section{
+      
+    }
+    .footer__description{}
+    .footer__auteur{}
+    .footer__copyright{}
+    .footer__menu{
+      &__nav{ // .site__footer__menu
+
+        &__ul{ // .site__footer__menu__ul
+            display : flex;
+            list-style-type: none;
+            justify-content: center;
+            .menu-item { // .site__footer__menu__ul .menu-item
+                margin : 10px 5px;
+              a{ // .site__footer__menu__ul .menu-item a
+                display : flex;
+                align-items: center;
+                padding : 3px;
+                  svg { // .site__footer__menu__ul .menu-item a svg
+                    color: $color__link__footer;
+                  }
+             
+                &:hover {
+                  svg { // .site__footer__menu__ul .menu-item a svg
+                    color: $color__link__footer-hover;
+                  }
+                }
+              }
+            }    
+         }
+      }
+
+    }
+    .footer__recherche{}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.site__footer {
+    font-family: $font__titre;
+    background-color: $color__background-footer;
+    padding: 15px;
+
+
+  }
+
+.footer__titre,
+.footer__presentation,
+.footer__author {
+  color: $color__font-footer;
+  text-align: center;
+}
+*/
+

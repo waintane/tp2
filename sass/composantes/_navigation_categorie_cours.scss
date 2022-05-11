@@ -1,0 +1,30 @@
+/* --------------------------------------------------------------
+Navigation pour la page category.php   boutons de catégorie  groupe-1
+----------------------------------------------------------------- */
+.menu-categorie_cours-container
+{ //nav
+
+    .menu {  //ul
+        display : flex;
+        list-style-type: none;
+        justify-content: space-around;
+     
+        .menu-item { //li
+             a {
+                 padding : 5px 10px;
+                 text-decoration: none;
+             }
+        }
+
+        .current-menu-item {
+            
+            a{
+                color : $couleur__bouton--current;
+                background-color: $couleur__bouton__background--current;
+            }
+            
+        }
+
+
+    }
+}
