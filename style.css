@@ -411,6 +411,18 @@ a:hover, a:active {
 
 .header__titre a {
   text-decoration: none;
+  animation-name: titreChangementCouleur;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titreChangementCouleur {
+  from {
+    color: #fda553;
+  }
+  to {
+    color: #ffbd80;
+  }
 }
 
 h1, h2 {
@@ -874,7 +886,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 }
 
 .cours__titre {
-  color: #f00;
+  color: #ffad61;
 }
 
 .cours section {

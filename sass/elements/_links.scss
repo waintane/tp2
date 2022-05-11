@@ -46,4 +46,12 @@ a {
 }
 .header__titre a{
 	text-decoration: none;
+	animation-name: titreChangementCouleur;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes titreChangementCouleur {
+	from {color: hsl(29, 98%, 66%);}
+	to {color: hsl(29, 100%, 75%);}
+	
 }
