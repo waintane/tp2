@@ -38,10 +38,12 @@ a {
 }
 
 .header__titre a{
-	@include links(	$color__link__header,
+	@include links(	$color__link__header-visited,
 					$color__link__header-visited, 
 					$color__link__header-hover );
 
 	font-size: clamp(4rem, 2vw, 9rem);				
 }
-
+.header__titre a{
+	text-decoration: none;
+}

@@ -1,6 +1,5 @@
 <?php get_header() ?>
 <main class="principal">
-    <h1>------ category.php groupe-1-----------</h1>
     <section class="formation">
 
     <?php  wp_nav_menu(array(

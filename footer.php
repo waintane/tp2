@@ -19,7 +19,7 @@
                     "link_before"=>$icone)); ?>
     </section>
     <section class="footer__recherche"><?php get_search_form(); ?></section>
-    <section class="footer__auteur">Auteur : Eddy Martin</section>
+    <section class="footer__auteur">Auteur : Olivier Paradis-Tardif</section>
 </div>
 </footer>
 <div class="boite__modale">
