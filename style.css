@@ -685,6 +685,7 @@ COMPOSANTES
   flex: 0 0 20%;
   height: 175px;
   border: 1px solid #aaa;
+  justify-content: space-around;
 }
 
 .menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a {
@@ -696,6 +697,7 @@ COMPOSANTES
   font-size: 2rem;
   background-color: #242424;
   color: #ffad61;
+  text-align: center;
 }
 
 .menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description {
@@ -711,10 +713,15 @@ COMPOSANTES
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: none;
 }
 
 .menu-accueil-container .menu .menu-item a:hover, .menu-evenement-container .menu .menu-item a:hover {
   background-color: #6d6d6d;
+}
+
+.menu-accueil-container {
+  width: 100%;
 }
 
 /* --------------------------------------------------------------
@@ -946,7 +953,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
   height: 100%;
 }
 
-button {
+.formation__liste button {
   border-radius: 30%;
   background-color: #ffad61;
   color: black;
