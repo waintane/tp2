@@ -679,38 +679,6 @@ COMPOSANTES
   justify-content: space-around;
 }
 
-.menu-accueil-container .menu .accueil__cours .menu-item-icone, .menu-evenement-container .menu .accueil__cours .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
-}
-
-.menu-accueil-container .menu .accueil__prof .menu-item-icone, .menu-evenement-container .menu .accueil__prof .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=octoface");
-}
-
-.menu-accueil-container .menu .accueil__aide .menu-item-icone, .menu-evenement-container .menu .accueil__aide .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
-}
-
-.menu-accueil-container .menu .accueil__etudiant .menu-item-icone, .menu-evenement-container .menu .accueil__etudiant .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=mortar-board-bold");
-}
-
-.menu-accueil-container .menu .accueil__journee .menu-item-icone, .menu-evenement-container .menu .accueil__journee .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
-}
-
-.menu-accueil-container .menu .accueil__porte__1 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__1 .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
-}
-
-.menu-accueil-container .menu .accueil__porte__2 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__2 .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
-}
-
-.menu-accueil-container .menu .accueil__projet .menu-item-icone, .menu-evenement-container .menu .accueil__projet .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
-}
-
 .menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item {
   display: flex;
   flex-direction: column;
