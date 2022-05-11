@@ -694,6 +694,7 @@ COMPOSANTES
   text-decoration: none;
   height: 100%;
   font-size: 2rem;
+  background-color: #242424;
 }
 
 .menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description {
@@ -709,6 +710,10 @@ COMPOSANTES
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.menu-accueil-container .menu .menu-item a:hover, .menu-evenement-container .menu .menu-item a:hover {
+  background-color: #a3a3a3;
 }
 
 /* --------------------------------------------------------------
