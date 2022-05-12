@@ -75,6 +75,40 @@
             "main"
             "footer";
     }
+    .menu-item a{
+        font-size: 0.5rem;
+    }
+    .menu-item-description {
+        // span`
+        font-size: 0.25rem;
+        text-align: center;
+    }
 }
+@media screen and (max-width : $largeur__media--tablette)
+{
+    .site {
+        grid-template-columns: auto ($size__site-barre);
+        grid-template-areas:
+            "header header"
+            " main sidebar"
+            "footer footer";
+    }
 
+    .home {
+        display: grid;
+        gap : 0px;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidebar"
+            "header"
+            "main"
+            "footer";
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .menu span {
+        font-size: 3px;
+    }
+}
 

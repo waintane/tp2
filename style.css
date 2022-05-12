@@ -894,7 +894,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 }
 
 .evenement {
-  background-color: #3048d2;
+  background-color: black;
 }
 
 .evenement__resume {
@@ -1182,6 +1182,32 @@ LAYOUT
     gap: 0px;
     grid-template-columns: auto;
     grid-template-areas: "sidebar" "header" "main" "footer";
+  }
+  .menu-item a {
+    font-size: 0.5rem;
+  }
+  .menu-item-description {
+    font-size: 0.25rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .site {
+    grid-template-columns: auto 300px;
+    grid-template-areas: "header header" " main sidebar" "footer footer";
+  }
+  .home {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto;
+    grid-template-areas: "sidebar" "header" "main" "footer";
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .menu span {
+    font-size: 3px;
   }
 }
 /*# sourceMappingURL=style.css.map */
