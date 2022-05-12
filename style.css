@@ -1183,13 +1183,6 @@ LAYOUT
     grid-template-columns: auto;
     grid-template-areas: "sidebar" "header" "main" "footer";
   }
-  .menu-item a {
-    font-size: 0.5rem;
-  }
-  .menu-item-description {
-    font-size: 0.25rem;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1205,9 +1198,6 @@ LAYOUT
   }
   nav {
     flex-wrap: wrap;
-  }
-  .menu span {
-    font-size: 3px;
   }
 }
 /*# sourceMappingURL=style.css.map */

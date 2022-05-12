@@ -75,14 +75,7 @@
             "main"
             "footer";
     }
-    .menu-item a{
-        font-size: 0.5rem;
-    }
-    .menu-item-description {
-        // span`
-        font-size: 0.25rem;
-        text-align: center;
-    }
+
 }
 @media screen and (max-width : $largeur__media--tablette)
 {
@@ -106,9 +99,6 @@
     }
     nav{
         flex-wrap: wrap;
-    }
-    .menu span {
-        font-size: 3px;
     }
 }
 
