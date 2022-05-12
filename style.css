@@ -744,6 +744,10 @@ COMPOSANTES
   width: 100%;
 }
 
+.menu-evenement-container {
+  width: 100%;
+}
+
 hr {
   display: none;
 }
@@ -981,6 +985,11 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
   border-radius: 30%;
   background-color: #ffad61;
   color: black;
+}
+
+.boite__modale__ferme {
+  border-radius: 100%;
+  text-align: center;
 }
 
 .galerie {

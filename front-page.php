@@ -5,7 +5,7 @@
 <?php wp_nav_menu(array(
         "menu"=> "accueil",
         "container" => "nav")); ?>
-<h2>Les événement de l'année</h2>
+<h2>Les événements de l'année</h2>
 <?php wp_nav_menu(array(
         "menu"=> "evenement",
         "container" => "nav")); ?>        
