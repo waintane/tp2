@@ -988,8 +988,12 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 }
 
 .boite__modale__ferme {
+  margin: 0;
   border-radius: 100%;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
 }
 
 .galerie {
