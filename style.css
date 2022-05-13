@@ -764,6 +764,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 .menu-categorie_cours-container .menu .menu-item a {
   padding: 5px 10px;
   text-decoration: none;
+  min-width: 100px;
 }
 
 .menu-categorie_cours-container .menu .current-menu-item a {
