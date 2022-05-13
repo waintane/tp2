@@ -582,7 +582,7 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: white;
+  color: #ffad61;
   margin: 5px 0px;
 }
 
@@ -600,9 +600,6 @@ COMPOSANTES
   font-size: 1rem;
 }
 
-.evenement__resume {
-  background-color: black;
-}
 
 .site__header {
   background-color: white;
@@ -915,10 +912,6 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
   color: #000;
 }
 
-.cours__titre {
-  color: #ffad61;
-}
-
 .cours section {
   display: flex;
 }
@@ -928,7 +921,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 }
 
 .evenement__resume {
-  background-color: #bbb;
+  background-color: black;
 }
 
 .evenement__organisateur {
