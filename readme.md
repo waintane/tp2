@@ -8,10 +8,10 @@
 
 Github page : https://waintane.github.io/tp2/
 
-page d'accueil personnalise avec les deux menu en serie blocs
-Le département TIM
-Les evenements
-Une galerie d'image de different projet etudiant
+page d'accueil personnalise avec les deux menus en serie blocs,
+Le département TIM,
+Les evenements,
+Une galerie d'image de different projet etudiant,
 Grille de cours ameliorees
 
 
