@@ -6,10 +6,7 @@
 ###### get_search_query()
 ###### get_search_form()
 
-Le template « searchform.php »
-Le modèle « search.php »
-
-Développement du modèle « search.php » et du template « searchform.php »
+Github page : https://waintane.github.io/tp2/
 
 Pour modifier readme.md
 [Commande de base de l'éditeur](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
