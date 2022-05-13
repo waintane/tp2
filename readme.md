@@ -8,5 +8,12 @@
 
 Github page : https://waintane.github.io/tp2/
 
+page d'accueil personnalise avec les deux menu en serie blocs
+Le département TIM
+Les evenements
+Une galerie d'image de different projet etudiant
+Grille de cours ameliorees
+
+
 Pour modifier readme.md
 [Commande de base de l'éditeur](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
