@@ -2,7 +2,7 @@
 /*
 theme name: Tp2 Olivier Paradis-Tardif
 Author: Olivier Paradis-Tardif
-Author URI: https://github.com/waintane/tp2.git
+Author URI: https://github.com/waintane/tp2/tree/4w4EpreuveFinale
 Description: Mon theme pour le tp 2
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -368,6 +368,26 @@ a:hover, a:active {
   outline: 0;
 }
 
+h3 {
+  color: #ffad61;
+}
+
+h3:visited {
+  color: #ffad61;
+}
+
+h3:hover, h3:focus, h3:active {
+  color: #919191;
+}
+
+h3:focus {
+  outline: thin dotted;
+}
+
+h3:hover, h3:active {
+  outline: 0;
+}
+
 .site__footer a {
   color: #e6e6e6;
 }
@@ -580,6 +600,10 @@ COMPOSANTES
   font-size: 1rem;
 }
 
+.evenement__resume {
+  background-color: black;
+}
+
 .site__header {
   background-color: white;
   color: #040629;
@@ -695,12 +719,12 @@ COMPOSANTES
   }
 }
 
-.menu-accueil-container .menu, .menu-evenement-container .menu {
+.menu-accueil-container .menu, .menu-evenement-container .menu, .menu-atelier-container .menu {
   display: flex;
   justify-content: space-around;
 }
 
-.menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item {
+.menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item, .menu-atelier-container .menu .menu-item {
   display: flex;
   flex-direction: column;
   flex: 0 0 20%;
@@ -709,7 +733,7 @@ COMPOSANTES
   justify-content: space-around;
 }
 
-.menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a {
+.menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a, .menu-atelier-container .menu .menu-item a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -721,12 +745,12 @@ COMPOSANTES
   text-align: center;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description {
+.menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description, .menu-atelier-container .menu .menu-item a .menu-item-description {
   font-size: 1rem;
   text-align: center;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone {
+.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone, .menu-atelier-container .menu .menu-item a .menu-item-icone {
   width: 2rem;
   height: 2rem;
   border: 1px solid #aaa;
@@ -737,7 +761,7 @@ COMPOSANTES
   display: none;
 }
 
-.menu-accueil-container .menu .menu-item a:hover, .menu-evenement-container .menu .menu-item a:hover {
+.menu-accueil-container .menu .menu-item a:hover, .menu-evenement-container .menu .menu-item a:hover, .menu-atelier-container .menu .menu-item a:hover {
   background-color: #6d6d6d;
 }
 
@@ -746,6 +770,10 @@ COMPOSANTES
 }
 
 .menu-evenement-container {
+  width: 100%;
+}
+
+.menu-atelier-container {
   width: 100%;
 }
 
@@ -972,6 +1000,12 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 
 .boite__carrousel__navigation button:focus {
   background-color: #000;
+}
+
+.boite__carrousel__navigation button:hover {
+  width: 25px;
+  height: 25px;
+  margin: auto 6px;
 }
 
 .boite__carrousel__img {

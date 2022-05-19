@@ -30,6 +30,11 @@ a {
 					$color__link-visited, 
 					$color__link-hover )
 }
+h3 {
+	@include links(	$color__link-visited,
+					$color__link-visited, 
+					$color__link-hover )
+}
 
  .site__footer a{
 	@include links(	$color__link__footer,
