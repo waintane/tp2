@@ -750,17 +750,6 @@ COMPOSANTES
   text-align: center;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone, .menu-atelier-container .menu .menu-item a .menu-item-icone {
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid #aaa;
-  margin-top: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: none;
-}
-
 .menu-accueil-container .menu .menu-item a:hover, .menu-evenement-container .menu .menu-item a:hover, .menu-atelier-container .menu .menu-item a:hover {
   background-color: #6d6d6d;
 }
@@ -775,6 +764,16 @@ COMPOSANTES
 
 .menu-atelier-container {
   width: 100%;
+}
+
+.menu-atelier-container .menu-item-icone {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://s2.svgbox.net/files.svg?ic=css");
 }
 
 hr {
